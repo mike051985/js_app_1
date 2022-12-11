@@ -1,2 +1,2 @@
 # js_app_1
-Passenger Counter | JS
+Passenger Counter | JavaScript | Unfinished
