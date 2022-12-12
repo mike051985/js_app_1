@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://i.postimg.cc/rpW7s5bf/station.jpg");
+    background-color: #dcdcdc;
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-    background: #ffffff;
-    max-width: 80%;
-    margin: 0 auto;
+    background-color: #c0c0c0;
+    max-width: 600px;
+    margin: 5em auto 3rem auto;
     border: 3px solid #000000;
     border-radius: 10px;
 }
@@ -36,7 +36,7 @@ button {
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 50%;
     margin-bottom: 5px;
     border-radius: 5px;
 }
@@ -51,4 +51,10 @@ button {
 
 #save-el {
     font-weight: bold;
+}
+
+@media (max-width: 675px) {
+    .container {
+        max-width: 400px;
+    }
 }
